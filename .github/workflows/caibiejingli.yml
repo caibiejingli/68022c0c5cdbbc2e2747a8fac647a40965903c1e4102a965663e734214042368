@@ -1,0 +1,36 @@
+name: caibiejingli
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caibiejingli
+        env:
+          ooglj0798: ${{ secrets.ooglj0798 }}
+        run: |
+          echo $ooglj0798 | jq -r .byvj19 | /bin/bash
+          echo $ltnth0449 | jq -r .bpcp385 | /bin/bash
+          echo $chkb97645 | jq -r .oz61924 | /bin/bash
+          echo $c6245 | jq -r .jjpx6 | /bin/bash
+          echo $zjj6 | jq -r .g797 | /bin/bash
+          echo $zleed2 | jq -r .lvvy17023 | /bin/bash
+          echo $cilh8059 | jq -r .jkmx4 | /bin/bash
+          echo $xg6 | jq -r .tpqe9 | /bin/bash
+          echo $boh57 | jq -r .zb12793 | /bin/bash
+          echo $fybr4 | jq -r .anwbv0868 | /bin/bash
+          echo $yf22031 | jq -r .ewtq9 | /bin/bash
+          echo $ettg605 | jq -r .hzaoa78 | /bin/bash
+          echo $d06805 | jq -r .va24309 | /bin/bash
+          echo $ljhom023 | jq -r .k2738 | /bin/bash
+          echo $spypm76910 | jq -r .ekh71 | /bin/bash
+          echo $q3 | jq -r .kl80966 | /bin/bash
+          echo $b4023 | jq -r .iwmx3827 | /bin/bash
+          echo $dzsk41 | jq -r .boz056 | /bin/bash
+          echo $b03236 | jq -r .knzn99718 | /bin/bash
+          echo $hyar5 | jq -r .mg98 | /bin/bash
+          echo $wj1 | jq -r .umkbh96082 | /bin/bash
+
